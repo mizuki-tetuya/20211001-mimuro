@@ -1,9 +1,6 @@
 html {
   font-size: 100%;
 }
-body {
-  width: 1200px;
-}
 img {
   max-width: 100%;
 }
@@ -30,13 +27,13 @@ img {
   justify-content: flex-end;
 }
 .child img {
-  width: 55%;
+  width: 60%;
   display: inline-block;
   position: relative;
 }
 
 .title {
-  font-size: 60px;
+  font-size: 75px;
   position: absolute;
   font-weight: bold;
   top: 120px;
@@ -47,7 +44,7 @@ img {
   color: blueviolet;
 }
 .subtitle {
-  font-size: 20px;
+  font-size: 27px;
   color: blueviolet;
   position: absolute;
   top: 328px;
@@ -57,7 +54,7 @@ img {
   color: aqua;
 }
 .text {
-  font-size: 13px;
+  font-size: 17px;
   font-weight: bold;
   position: absolute;
   top: 360px;
@@ -89,13 +86,13 @@ img {
 }
 
 .news-list {
-  width: 60%;
+  width: 50%;
   padding: 20px 0px;
   border-top: 2px solid silver;
   border-bottom: 2px solid silver;
 }
 .second-news {
-  width: 60%;
+  width: 50%;
   margin: 0px auto;
   display: flex;
   flex-direction: column;
@@ -127,7 +124,7 @@ img {
   font-weight: bold;
 }
 .about-img {
-  width: 30%;
+  width: 20%;
 }
 .content1 {
   text-align: center;
@@ -141,7 +138,7 @@ img {
 }
 .content-text1 {
   font-size: 13px;
-  width: 40%;
+  width: 30%;
 }
 
 .fourth {
@@ -329,7 +326,9 @@ table th {
   text-align: left;
   width: 27%;
 }
-
+.seven {
+  width: 100%;
+}
 .company-detail {
   padding: 10px 0px 20px 0px;
   font-weight: bold;
@@ -347,6 +346,12 @@ table th {
 .recruit-card {
   position: relative;
 }
+.recruit-card img {
+  width: 100%;
+}
+.recruit {
+  width: 50%;
+}
 .recruit-title {
   color: white;
   font-weight: bold;
@@ -356,8 +361,15 @@ table th {
   top: 50%;
   left: 50%;
 }
+.interview {
+  width: 50%;
+}
 .interview-card {
+  width: 100%;
   position: relative;
+}
+.interview-card img {
+  width: 100%;
 }
 .interview-title {
   color: white;
